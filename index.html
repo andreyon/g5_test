@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G5 test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SCSS/normalize.css">
+    <link rel="stylesheet" href="SCSS/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img class="logo-img" src="./assets/images/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul class="nav-flex-wrapper">
+                <li>
+                    <a href="#">My Profile</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <a href="#">Contacts</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Calendar
+                        <img class="menu-arrow" src="./assets/images/arrow-menu.svg" alt="arrow-menu">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Worklog
+                        <img class="menu-arrow" src="./assets/images/arrow-menu.svg" alt="arrow-menu">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input
+                    class="search-input"
+                    type="text"
+                    placeholder="Search"
+                    required
+            />
+        </div>
+    </div>
+</header>
+
+<main class="main-container">
+    <aside class="profile-container">
+        <div class="profile-info">
+            <div class="photo-wrapper">
+                <img class="photo" src="./assets/images/profile_photo_1.jpg" alt="profile_photo">
+                <span class="on-line-label"></span>
+                <span class="rate-label">lead</span>
+            </div>
+            <div class="name">
+                Kate Sluyter
+            </div>
+            <div class="position">
+                UI/UX designer, Illustrator
+            </div>
+            <div class="location">
+                <img class="location-img" src="./assets/images/location-icon%20.svg" alt="location-icon">
+                <span class="location-title">Kharkiv, Ukraine</span>
+            </div>
+            <div class="btn-wrapper">
+                <input type="button" class="edit-profile-btn" value="Edit Profile"/>
+            </div>
+
+        </div>
+        <div class="profile-contacts">
+            <div class="contacts-row">
+                <img class="contact-img" src="./assets/images/phone_icon.svg" alt="phone">
+                <span class="contact-content">+ 38 (050) 30 50 574</span>
+            </div>
+            <div class="contacts-row">
+                <img class="contact-img" src="./assets/images/skipe_icon.svg" alt=skipe">
+                <span class="contact-content">art91</span>
+            </div>
+            <div class="contacts-row">
+                <img class="contact-img" src="./assets/images/email_icon.svg" alt="email">
+                <span class="contact-content">kate.sluyter@g5e.com</span>
+            </div>
+        </div>
+        <div class="profile-interests"></div>
+    </aside>
+    <div class="posts-container"></div>
+</main>
+
+</body>
+</html>
