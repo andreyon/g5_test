@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>G5 test</title>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="SCSS/normalize.css">
-    <link rel="stylesheet" href="SCSS/style.css">
+    <link rel="stylesheet" href="scss/normalize.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
                 <span class="contact-content">+ 38 (050) 30 50 574</span>
             </div>
             <div class="contacts-row">
-                <img class="contact-img" src="./assets/images/skipe_icon.svg" alt=skipe">
+                <img class="contact-img" src="./assets/images/skype_icon.svg" alt=skype">
                 <span class="contact-content">art91</span>
             </div>
             <div class="contacts-row">
@@ -91,10 +91,63 @@
                 <span class="contact-content">kate.sluyter@g5e.com</span>
             </div>
         </div>
-        <div class="profile-interests"></div>
+
+        <div class="profile-interests hide">
+            <div class="interests-title">
+                <img class="interests-title-img" src="./assets/images/star_icon.svg" alt=book_icon">
+                <span class="interests-title-label">INTERESTS</span>
+            </div>
+            <div class="interests-flex-wrapper">
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Game of Thrones</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Green Mile</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Haze</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/cinema_icon.svg" alt=book_icon">
+                    <span class="interest-description">Silicon Valley</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/cinema_icon.svg" alt=book_icon">
+                    <span class="interest-description">Wild West</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/music_icon.svg" alt=book_icon">
+                    <span class="interest-description">Wild West</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/music_icon.svg" alt=book_icon">
+                    <span class="interest-description">Imagine Dragons</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/game_icon.svg" alt=book_icon">
+                    <span class="interest-description">Mahjong</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="./assets/images/game_icon.svg" alt=book_icon">
+                    <span class="interest-description">Mortal Kombat</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-btn-container">
+            <button class="more-btn collapsed">
+                <span class="more-btn-text">More information</span>
+                <img class="more-btn-img" src="assets/images/arrow-btn-down.svg" alt="arrow-btn">
+            </button>
+        </div>
+
     </aside>
     <div class="posts-container"></div>
 </main>
 
+<script src="js/index.js"></script>
 </body>
 </html>
