@@ -1,0 +1,189 @@
+@import '_colors.scss';
+@import '_varables.scss';
+@import '_mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $font-size-main;
+  background-color: $bg-main;
+  font-family: 'Work Sans', sans-serif;
+  color: $font-color-main;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.header {
+  width: 100%;
+  background-color: $bg-blue;
+  color: $white;
+  height: 64px;
+  box-shadow: 0px 2px 10px #E5E9EACE;
+
+  input {
+    height: 100%;
+    width: 100%;
+  }
+
+  a {
+    color: $white
+  }
+
+  .container {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .logo {
+    height: 31px;
+  }
+
+  .logo-img {
+    height: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    padding: 0 60px 0 40px;
+  }
+
+  .nav-flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-arrow {
+    margin: 0 5px 2px;
+  }
+
+  .search-container {
+    width: 290px;
+    height: 40px;
+  }
+
+  .search-input {
+    border-radius: 6px;
+    padding: 10px 15px;
+  }
+
+  .search-input:invalid {
+    background: $white url("../assets/images/search_icon.svg") no-repeat 95% 50%;
+  }
+}
+
+.main-container {
+  @include container;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container {
+  width: 280px;
+  padding: 40px 25px 10px;
+  text-align: center;
+
+  .photo-wrapper {
+    position: relative;
+  }
+
+  .on-line-label {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 85px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: $bg-green;
+  }
+
+  .rate-label {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 45px;
+    font-size: $font-size-10;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $font-color-light;
+    background-color: $bg-light-grey;
+    padding-top: 5px;
+  }
+
+  .photo {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 6px 0 3px;
+  }
+
+  .position {
+    font-size: $font-size-medium;
+    color: $font-color-light;
+    padding: 4px 0;
+  }
+
+  .location {
+    font-size: $font-size-small;
+    color: $font-color-extra-light;
+    padding: 4px 0 10px;
+  }
+
+  .location-img {
+    width: 15px;
+    margin-bottom: -3px;
+  }
+
+  .edit-profile-btn {
+    width: 138px;
+    height: 36px;
+    background-color: $bg-green;
+    color: $white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .profile-contacts {
+    padding: 20px 0 30px;
+    font-size: $font-size-medium;
+  }
+
+  .contacts-row {
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .contact-img {
+    margin-bottom: -4px;
+  }
+
+  .contact-content {
+    padding-left: 20px;
+  }
+}
