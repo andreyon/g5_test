@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e425779-231b-44c9-b82a-fb188ac3c5eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/arrow-btn-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/book_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cinema_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/game_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/music_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/star_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/action_btn_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/author_photo_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/author_photo_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/author_photo_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/comment_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/heart_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/heart_icon_active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/post_img_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/post_img_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/post_img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/share_icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/_varables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_varables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/skipe_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/skype_icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/arrow-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/arrow-menu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,71 +33,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="141" column="42" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="103" column="15" lean-forward="true" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_varables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_varables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="37" column="57" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="394">
+                  <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="84">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="12" column="26" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="359">
+                  <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +96,13 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contact-content</find>
+      <find>author-img</find>
+      <find>./as</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,9 +120,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/SCSS/style.scss" />
         <option value="$PROJECT_DIR$/SCSS/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/_colors.scss" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/assets/images/heart_icon.svg" />
+        <option value="$PROJECT_DIR$/assets/images/comment_icon.svg" />
+        <option value="$PROJECT_DIR$/scss/_colors.scss" />
+        <option value="$PROJECT_DIR$/assets/images/arrow-menu.svg" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
       </list>
     </option>
@@ -138,9 +140,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="222" />
-    <option name="y" value="88" />
-    <option name="width" value="925" />
+    <option name="x" value="67" />
+    <option name="y" value="55" />
+    <option name="width" value="915" />
     <option name="height" value="557" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,6 +163,12 @@
               <item name="g5_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="g5_test" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="g5_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="g5_test" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="g5_test" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +197,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/it_house" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/frontend" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -200,8 +208,8 @@
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,25 +237,27 @@
       <workItem from="1604601005009" duration="3243000" />
       <workItem from="1604604273877" duration="3289000" />
       <workItem from="1604655720647" duration="27711000" />
-      <workItem from="1604767711168" duration="11508000" />
+      <workItem from="1604767711168" duration="12252000" />
+      <workItem from="1604864580085" duration="5470000" />
+      <workItem from="1604907644447" duration="18724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45751000" />
+    <option name="totallyTimeSpent" value="70689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22413793" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22413793" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.122689076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34957984" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3484087" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,6 +276,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scss/_varables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5502">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="110" column="3" lean-forward="true" selection-start-line="110" selection-start-column="3" selection-end-line="110" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_varables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
@@ -365,9 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/arrow-menu.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/search-icon.svg" />
     <entry file="file://$PROJECT_DIR$/assets/images/location-icon .svg">
       <provider selected="true" editor-type-id="images" />
@@ -383,13 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/search_icon.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_varables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -416,38 +486,66 @@
     <entry file="file://$PROJECT_DIR$/scss/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/arrow-btn-down.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="141" column="42" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="42" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/images/action_btn_icon.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/images/share_icon.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="219">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_varables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/heart_icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/heart_icon_active.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/author_photo_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/comment_icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="26" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/arrow-menu.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="103" column="15" lean-forward="true" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        <state relative-caret-position="359">
+          <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
         </state>
       </provider>
     </entry>
