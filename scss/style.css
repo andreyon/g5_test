@@ -1,0 +1,422 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #F5F8F9;
+  font-family: "Work Sans", sans-serif;
+  color: #3D4347;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #076BB7;
+  color: #ffffff;
+  height: 64px;
+  box-shadow: 0px 2px 10px #E5E9EACE;
+  z-index: 9999;
+}
+.header input {
+  height: 100%;
+  width: 100%;
+}
+.header a {
+  color: #ffffff;
+}
+.header .container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header .logo {
+  height: 31px;
+}
+.header .logo-img {
+  height: 100%;
+}
+.header .nav {
+  width: 100%;
+  padding: 0 60px 0 40px;
+}
+.header .nav-flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-item:hover {
+  color: #F5FFAA;
+}
+.header .nav-item:hover a {
+  color: #F5FFAA;
+}
+.header .dropdown {
+  position: relative;
+  cursor: pointer;
+}
+.header .dropdown:hover .menu-arrow {
+  transform: rotate(180deg);
+}
+.header .dropdown:hover .dropdown-content {
+  display: block;
+}
+.header .dropdown-content {
+  display: none;
+  position: absolute;
+  padding-top: 23px;
+  background-color: transparent;
+  min-width: 138px;
+  z-index: 1;
+}
+.header .dropdown-menu {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #D3DAED;
+}
+.header .dropdown-content .dropdown-menu a {
+  font-size: 16px;
+  color: #A6A9AC;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.header .dropdown-menu a:hover {
+  color: #191919;
+  background-color: #D3DAED33;
+}
+.header .menu-arrow {
+  margin: 0 5px 2px;
+}
+.header .search-container {
+  width: 290px;
+  height: 40px;
+}
+.header .search-input {
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+.header .search-input:invalid {
+  background: #ffffff url("../assets/images/search_icon.svg") no-repeat 95% 50%;
+}
+
+.main-container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+}
+
+.profile-container {
+  position: fixed;
+  width: 280px;
+  padding: 40px 25px 10px;
+  text-align: center;
+}
+.profile-container .photo-wrapper {
+  position: relative;
+}
+.profile-container .on-line-label {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #56B969;
+}
+.profile-container .rate-label {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  height: 22px;
+  width: 45px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #60686E;
+  background-color: #EBEBEB;
+  padding-top: 5px;
+}
+.profile-container .photo {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+.profile-container .name {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 6px 0 3px;
+}
+.profile-container .position {
+  font-size: 14px;
+  color: #60686E;
+  padding: 4px 0;
+}
+.profile-container .location {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #A6A9AC;
+  padding: 4px 0 10px;
+}
+.profile-container .location-img {
+  width: 15px;
+}
+.profile-container .edit-profile-btn {
+  width: 138px;
+  height: 36px;
+  background-color: #56B969;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile-container .edit-profile-btn:hover {
+  background-color: #4AA05A;
+}
+.profile-container .edit-profile-btn:active {
+  background-color: #6ACE7C;
+}
+.profile-container .profile-contacts {
+  padding: 20px 0 30px;
+  font-size: 14px;
+}
+.profile-container .contacts-row {
+  display: flex;
+  align-self: center;
+  padding-top: 10px;
+  text-align: left;
+}
+.profile-container .contact-content {
+  padding-left: 20px;
+  cursor: pointer;
+}
+.profile-container .contact-content:hover {
+  color: #177BC6;
+  text-decoration: underline;
+}
+.profile-container .contact-content:active {
+  text-decoration: none;
+}
+.profile-container .profile-interests {
+  text-align: left;
+  padding-bottom: 35px;
+}
+.profile-container .interests-title {
+  display: flex;
+  align-self: center;
+  padding-bottom: 15px;
+}
+.profile-container .interests-title-label {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+.profile-container .interest-item {
+  display: inline-flex;
+  align-self: center;
+  background-color: #EBEBEB;
+  font-size: 10px;
+  padding: 8px 10px;
+  border-radius: 2px;
+}
+.profile-container .interest-description {
+  padding-left: 8px;
+  overflow-wrap: normal;
+}
+.profile-container .interests-flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+}
+.profile-container .more-btn {
+  align-items: center;
+  font-size: 12px;
+  color: #177BC6;
+  cursor: pointer;
+}
+.profile-container .more-btn-text {
+  padding-right: 10px;
+}
+.profile-container .open .more-btn-img {
+  transform: rotate(180deg);
+}
+
+.posts-container {
+  flex-grow: 1;
+  padding-left: 20px;
+  margin-left: 265px;
+}
+.posts-container .post-wrapper {
+  padding: 20px 0 10px;
+}
+.posts-container .post-content {
+  border-radius: 2px;
+  padding: 18px 0 12px;
+  background-color: #ffffff;
+}
+.posts-container .post-header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-left: 19px;
+}
+.posts-container .author-img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.posts-container .post-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0 22px;
+}
+.posts-container .author-name {
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.posts-container .post-date {
+  font-size: 12px;
+  color: #A6A9AC;
+}
+.posts-container .actions-btn-container {
+  padding: 8px 30px 0 0;
+}
+.posts-container .actions-btn {
+  width: 6px;
+  cursor: pointer;
+}
+.posts-container .post-text {
+  padding: 8px 40px 10px 19px;
+  text-align: justify;
+}
+.posts-container .post-img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+.posts-container .post-details-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0 0 19px;
+  font-size: 14px;
+}
+.posts-container .details-likes-wrapper {
+  display: inline-flex;
+  justify-content: left;
+}
+.posts-container .likes-img {
+  cursor: pointer;
+}
+.posts-container .likes-info {
+  align-self: center;
+  padding-left: 10px;
+  color: #60686E;
+}
+.posts-container .likes-info:hover {
+  color: #177BC6;
+  text-decoration: underline;
+}
+.posts-container .details-comments-wrapper {
+  display: inline-flex;
+  justify-content: left;
+  padding-left: 16px;
+}
+.posts-container .comments-info {
+  align-self: center;
+  padding-left: 10px;
+  color: #60686E;
+}
+.posts-container .comments-info:hover {
+  color: #177BC6;
+  text-decoration: underline;
+}
+.posts-container .details-slider-btn {
+  position: absolute;
+  left: 50%;
+}
+.posts-container .slider-btn-item {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #60686E;
+  border-radius: 50%;
+}
+.posts-container .slider-btn-item.active {
+  background-color: #076BB7;
+}
+.posts-container .details-share-btn {
+  display: flex;
+  cursor: pointer;
+  color: #60686E;
+}
+.posts-container .share-img {
+  align-self: center;
+}
+.posts-container .share-text-img {
+  padding-left: 10px;
+  align-self: center;
+}
+.posts-container .comment-container {
+  display: flex;
+  justify-content: left;
+  padding: 10px 10px 10px 19px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  margin-top: 2px;
+}
+.posts-container .author-img-wrapper {
+  align-self: center;
+}
+.posts-container .user-img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.posts-container .comment-input-container {
+  flex-grow: 1;
+  align-self: center;
+  padding-left: 12px;
+}
+.posts-container .comment-input {
+  font-size: 14px;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

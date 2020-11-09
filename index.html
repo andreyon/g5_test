@@ -3,54 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>G5 test</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="SCSS/normalize.css">
-    <link rel="stylesheet" href="SCSS/style.css">
+    <link rel="stylesheet" href="scss/normalize.css">
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="logo">
             <a href="#">
-                <img class="logo-img" src="./assets/images/logo.png" alt="logo">
+                <img class="logo-img" src="assets/images/logo.png" alt="logo">
             </a>
         </div>
         <nav class="nav">
             <ul class="nav-flex-wrapper">
-                <li>
+                <li class="nav-item">
                     <a href="#">My Profile</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Tasks</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">News</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Contacts</a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="nav-item dropdown">
+                    <span href="#">
                         Calendar
-                        <img class="menu-arrow" src="./assets/images/arrow-menu.svg" alt="arrow-menu">
-                    </a>
+                        <img class="menu-arrow" src="assets/images/arrow-menu.svg" alt="arrow-menu">
+                    </span>
+                    <div class="nav-item dropdown-content">
+                        <div class="dropdown-menu">
+                            <a href="#">Presence</a>
+                            <a href="#">Vacation Plan</a>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="nav-item dropdown">
+                    <span href="#">
                         Worklog
-                        <img class="menu-arrow" src="./assets/images/arrow-menu.svg" alt="arrow-menu">
-                    </a>
+                        <img class="menu-arrow" src="assets/images/arrow-menu.svg" alt="arrow-menu">
+                    </span>
+                    <div class="dropdown-content">
+                        <div class="dropdown-menu">
+                        <a href="#">Presence</a>
+                        <a href="#">Vacation Plan</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </nav>
-        <div class="search-container">
+        <label class="search-container">
             <input
                     class="search-input"
                     type="text"
                     placeholder="Search"
                     required
             />
-        </div>
+        </label>
     </div>
 </header>
 
@@ -58,7 +71,7 @@
     <aside class="profile-container">
         <div class="profile-info">
             <div class="photo-wrapper">
-                <img class="photo" src="./assets/images/profile_photo_1.jpg" alt="profile_photo">
+                <img class="photo" src="assets/images/profile_photo_1.jpg" alt="profile_photo">
                 <span class="on-line-label"></span>
                 <span class="rate-label">lead</span>
             </div>
@@ -69,7 +82,7 @@
                 UI/UX designer, Illustrator
             </div>
             <div class="location">
-                <img class="location-img" src="./assets/images/location-icon%20.svg" alt="location-icon">
+                <img class="location-img" src="assets/images/location-icon%20.svg" alt="location-icon">
                 <span class="location-title">Kharkiv, Ukraine</span>
             </div>
             <div class="btn-wrapper">
@@ -79,22 +92,258 @@
         </div>
         <div class="profile-contacts">
             <div class="contacts-row">
-                <img class="contact-img" src="./assets/images/phone_icon.svg" alt="phone">
+                <img class="contact-img" src="assets/images/phone_icon.svg" alt="phone">
                 <span class="contact-content">+ 38 (050) 30 50 574</span>
             </div>
             <div class="contacts-row">
-                <img class="contact-img" src="./assets/images/skipe_icon.svg" alt=skipe">
+                <img class="contact-img" src="assets/images/skype_icon.svg" alt=skype">
                 <span class="contact-content">art91</span>
             </div>
             <div class="contacts-row">
-                <img class="contact-img" src="./assets/images/email_icon.svg" alt="email">
+                <img class="contact-img" src="assets/images/email_icon.svg" alt="email">
                 <span class="contact-content">kate.sluyter@g5e.com</span>
             </div>
         </div>
-        <div class="profile-interests"></div>
+
+        <div class="profile-interests hide">
+            <div class="interests-title">
+                <img class="interests-title-img" src="assets/images/star_icon.svg" alt=book_icon">
+                <span class="interests-title-label">INTERESTS</span>
+            </div>
+            <div class="interests-flex-wrapper">
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Game of Thrones</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Green Mile</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/book_icon.svg" alt=book_icon">
+                    <span class="interest-description">Haze</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/cinema_icon.svg" alt=book_icon">
+                    <span class="interest-description">Silicon Valley</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/cinema_icon.svg" alt=book_icon">
+                    <span class="interest-description">Wild West</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/music_icon.svg" alt=book_icon">
+                    <span class="interest-description">Wild West</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/music_icon.svg" alt=book_icon">
+                    <span class="interest-description">Imagine Dragons</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/game_icon.svg" alt=book_icon">
+                    <span class="interest-description">Mahjong</span>
+                </div>
+                <div class="interest-item">
+                    <img class="interest-img" src="assets/images/game_icon.svg" alt=book_icon">
+                    <span class="interest-description">Mortal Kombat</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="more-btn-container">
+            <button class="more-btn collapsed">
+                <span class="more-btn-text">More information</span>
+                <img class="more-btn-img" src="assets/images/arrow-btn-down.svg" alt="arrow-btn">
+            </button>
+        </div>
     </aside>
-    <div class="posts-container"></div>
+
+    <div class="posts-container">
+
+        <div class="post-wrapper">
+            <div class="post-content">
+                <div class="post-header">
+                    <div class="author-img-wrapper">
+                        <img class="author-img" src="assets/images/author_photo_1.jpeg" alt="author_photo">
+                    </div>
+                    <div class="post-info">
+                        <div class="author-name">Anastasia Semenchenko</div>
+                        <div class="post-date">13 July 10:30</div>
+                    </div>
+                    <div class="actions-btn-container">
+                        <button class="actions-btn">
+                            <img src="assets/images/action_btn_icon.svg" alt="action_btn">
+                        </button>
+                    </div>
+                </div>
+                <div class="post-text">
+                    All post photos ten years ago and now, I can too
+                </div>
+                <div class="post-img-container">
+                    <img class="post-img" src="assets/images/post_img_1.jpeg" alt="post_img">
+                </div>
+
+                <div class="post-details-container">
+                    <div class="details-reactions-wrapper">
+                        <div class="details-likes-wrapper">
+                            <img class="likes-img" src="assets/images/heart_icon.svg" alt="heart_icon">
+                            <a href="#" class="likes-info">155 Likes</a>
+                        </div>
+                        <div class="details-comments-wrapper">
+                            <img class="comments-img" src="assets/images/comment_icon.svg" alt="comment_icon">
+                            <a href="#" class="comments-info">25 Comments</a>
+                        </div>
+                    </div>
+                    <div class="details-slider-btn">
+                        <ul>
+                            <li class="slider-btn-item active"></li>
+                            <li class="slider-btn-item"></li>
+                            <li class="slider-btn-item"></li>
+                        </ul>
+                    </div>
+
+                    <button class="details-share-btn">
+                        <img class="share-img" src="assets/images/share_icon.svg" alt="share_icon">
+                        <span class="share-text-img">Share</span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="comment-container">
+                <div class="author-img-wrapper">
+                    <img class="user-img" src="assets/images/profile_photo_1.jpg" alt="profile_photo">
+                </div>
+                <label class="comment-input-container">
+                    <input
+                            class="comment-input"
+                            type="text"
+                            placeholder="Write your Comment"/>
+                </label>
+            </div>
+        </div>
+
+        <div class="post-wrapper">
+            <div class="post-content">
+                <div class="post-header">
+                    <div class="author-img-wrapper">
+                        <img class="author-img" src="assets/images/author_photo_2.jpg" alt="author_photo">
+                    </div>
+                    <div class="post-info">
+                        <div class="author-name">Kira Naitly</div>
+                        <div class="post-date">12 July 10:30</div>
+                    </div>
+                    <div class="actions-btn-container">
+                        <button class="actions-btn">
+                            <img src="assets/images/action_btn_icon.svg" alt="action_btn">
+                        </button>
+                    </div>
+                </div>
+                <div class="post-text">
+                    Made neat an on be gave show snug tore. Decisively advantages nor expression unpleasing she led met.
+                    Up hung mr we give rest half. Words to up style of since world.
+                </div>
+                <div class="post-img-container">
+                    <img class="post-img" src="assets/images/post_img_2.jpeg" alt="post_img">
+                </div>
+
+                <div class="post-details-container">
+                    <div class="details-reactions-wrapper">
+                        <div class="details-likes-wrapper">
+                            <img class="likes-img" src="assets/images/heart_icon_active.svg" alt="heart_icon">
+                            <a href="#" class="likes-info">255 Likes</a>
+                        </div>
+                        <div class="details-comments-wrapper">
+                            <img class="comments-img" src="assets/images/comment_icon.svg" alt="comment_icon">
+                            <a href="#" class="comments-info">25 Comments</a>
+                        </div>
+                    </div>
+                    <div class="details-slider-btn">
+                        <ul>
+                            <li class="slider-btn-item active"></li>
+                            <li class="slider-btn-item"></li>
+                        </ul>
+                    </div>
+
+                    <button class="details-share-btn">
+                        <img class="share-img" src="assets/images/share_icon.svg" alt="share_icon">
+                        <span class="share-text-img">Share</span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="comment-container">
+                <div class="author-img-wrapper">
+                    <img class="user-img" src="assets/images/profile_photo_1.jpg" alt="profile_photo">
+                </div>
+                <label class="comment-input-container">
+                    <input
+                            class="comment-input"
+                            type="text"
+                            placeholder="Write your Comment"/>
+                </label>
+            </div>
+        </div>
+
+        <div class="post-wrapper">
+            <div class="post-content">
+                <div class="post-header">
+                    <div class="author-img-wrapper">
+                        <img class="author-img" src="assets/images/author_photo_3.jpg" alt="author_photo">
+                    </div>
+                    <div class="post-info">
+                        <div class="author-name">Ivan Petrenko</div>
+                        <div class="post-date">10 July 10:30</div>
+                    </div>
+                    <div class="actions-btn-container">
+                        <button class="actions-btn">
+                            <img src="assets/images/action_btn_icon.svg" alt="action_btn">
+                        </button>
+                    </div>
+                </div>
+                <div class="post-text">
+                    All post photos ten years ago and now, I can too
+                </div>
+                <div class="post-img-container">
+                    <img class="post-img" src="assets/images/post_img_3.jpg" alt="post_img">
+                </div>
+
+                <div class="post-details-container">
+                    <div class="details-reactions-wrapper">
+                        <div class="details-likes-wrapper">
+                            <img class="likes-img" src="assets/images/heart_icon.svg" alt="heart_icon">
+                            <a href="#" class="likes-info">155 Likes</a>
+                        </div>
+                        <div class="details-comments-wrapper">
+                            <img class="comments-img" src="assets/images/comment_icon.svg" alt="comment_icon">
+                            <a href="#" class="comments-info">25 Comments</a>
+                        </div>
+                    </div>
+
+                    <button class="details-share-btn">
+                        <img class="share-img" src="assets/images/share_icon.svg" alt="share_icon">
+                        <span class="share-text-img">Share</span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="comment-container">
+                <div class="author-img-wrapper">
+                    <img class="user-img" src="assets/images/profile_photo_1.jpg" alt="profile_photo">
+                </div>
+                <label class="comment-input-container">
+                    <input
+                            class="comment-input"
+                            type="text"
+                            placeholder="Write your Comment"/>
+                </label>
+            </div>
+        </div>
+    </div>
 </main>
 
+<script src="js/index.js"></script>
 </body>
 </html>
